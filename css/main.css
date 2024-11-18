@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  /* font-family: "Big Shoulders Display", sans-serif; */
+  /* font-family: "Lexend Deca", sans-serif; */
+}
+
+.sedans {
+  background-color: #e28625;
+  padding: 48px;
+}
+
+.suvs {
+  background-color: #006971;
+  padding: 48px;
+}
+
+.luxury {
+  background-color: #004140;
+  padding: 48px;
+}
+
+.class-name {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  margin-top: 36px;
+  margin-bottom: 24px;
+}
+
+.class-description {
+  font-family: "Lexend Deca", sans-serif;
+  color: #FFFFFF;
+  line-height: 24px;
+  margin-top: 0;
+  margin-bottom: 36px;
+}
+
+a {
+  text-decoration: none;
+  background-color: #F2F2F2;
+  padding: 12px 32px;
+  border-radius: 25px;
+  font-family: "Lexend Deca", sans-serif;
+  transition: .1s;
+}
+
+a:hover {
+    background-color: #00000000;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+
+.cta-sedans {
+    color: #E28625;
+}
+
+.cta-suvs {
+    color: #006971;
+}
+
+.cta-luxury {
+    color: #004140;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        display: flex;
+        min-height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+}
